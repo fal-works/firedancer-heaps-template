@@ -1,0 +1,17 @@
+# Common Build arguments
+
+-cp src
+-dce full
+
+-main Main
+
+-lib firedancer
+-lib heaps
+
+-D windowTitle=Firedancer Template (with Heaps.io)
+
+-D sneaker_assertion_disable
+-D firedancer_positionref_type=heaps_BatchElement
+-D firedancer_use_actor_class
+
+# --debug
